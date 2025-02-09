@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: "Cabin";
+  }
+
+  .main-body {
+    background-color: #A7A8CD;
+    width: 800px;
+    height: 500px;
+    margin: auto auto;
+    margin-top: 300px;
+    border: 10px solid white;
+  }
+
+  .card-label {
+    width: 200px;
+    background-color: #FEF1B5;
+    position: absolute;
+    top: 356px;
+    left: 380px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 5px 20px 20px 5px;
+    color: black;
+  }
+  
+  .card {
+    position: relative;
+    width: 26rem;
+    height: 400px;
+    margin: 40px 0 0 150px;
+    padding-bottom: 30px;
+  }
+  
+  img {
+    position: relative;
+    height: 60%;
+  }
+
+  .cardbody {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 1000;
+    letter-spacing: 1px
+  }
+  
+  .card-title span {
+    color: #555555
+  }
+  
+  .card-text{
+    line-height: 1.1rem;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: medium;
+  }

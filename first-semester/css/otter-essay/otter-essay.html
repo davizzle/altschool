@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <style>
+    * {
+        font-family: "DM Sans", sans-serif;
+    }
+    html,
+    body {
+      background-color: white;
+    }
+
+    .outer-box {
+      border: 10px solid white;
+      border-bottom: 20px solid white;
+      background-color: black;
+      width: 768px;
+      height: 400px;
+      display: block;
+      margin: auto auto;
+      margin-top: 300px;
+    }
+    
+    .container {
+      position: relative;
+      margin: 60px auto auto 50px;
+      width: 70%;
+      height: 47%;
+    }
+    
+    .text-box {
+      background-color: #fff;
+      padding: 65px 30px 10px;
+      width: 80%;
+      border-radius: 8px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+    
+    .essay {
+      top: -13px;
+      left: 30px;
+      width: 70%;
+      margin: 0 auto;
+      position: absolute;
+      background-color: rgb(255, 0, 149);
+      border-radius: 6px;
+      text-align: center;
+    }
+    
+    .essay h3 {
+      font-family: "DM Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      line-height: 20px;
+      font-size: 28px;
+    }
+    
+    @media (max-width: 1026px) {
+      .outer-box, .container, .text-box, .essay{
+        width: fit-content;
+        height: fit-content
+      }
+    
+      .container {
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+      }
+    
+      .essay {
+        padding: 0 2rem;
+      }
+    }
+    
+    @media (max-width: 450px) {
+      .outer-box {
+        padding-bottom: 40px;
+        padding-right: 40px;
+      }
+    
+      .text-box {
+      width: 270px;
+      }
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="outer-box">
+    <div class="container">
+      <div class="essay">
+        <h3>An Otter Essay</h3>
+      </div>
+      <div class="text-box">
+        <p>Otters have long slim bodies and relatively short limbs. Their most striking anatomical features are the powerful webbed feet used to swim, 
+          and their seal-like abilities holding breath underwater.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
