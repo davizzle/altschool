@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt School Signup Form</title>
+</head>
+<body>
+
+    <!-- Centering the Form (Using Only HTML) -->
+    <div align="center">
+        <!-- Signup Header -->
+        <header>
+            <p>Already an AltScholar? <a href="#">Sign In</a></p>
+            <h1>Signup</h1>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+            <hr>
+        </header>
+
+        <!-- Signup Form -->
+        <form action="#" method="POST">
+            
+            <!-- Personal Information -->
+            <label for="first-name">First Name</label><br>
+            <input type="text" id="first-name" name="first_name" placeholder="First Name" required><br><br>
+
+            <label for="last-name">Last Name</label><br>
+            <input type="text" id="last-name" name="last_name" placeholder="Last Name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <label for="gender">Gender</label><br>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Address Information -->
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br><br>
+
+            <label for="country">Country of Residence</label><br>
+            <input type="text" id="country" name="country" placeholder="Country of Residence" required><br><br>
+
+            <label for="state">State of Residence</label><br>
+            <input type="text" id="state" name="state" placeholder="State of Residence" required><br><br>
+
+            <!-- Security Information -->
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required><br><br>
+
+
+            <!-- How did you hear about us? -->
+            <label for="referral">How did you hear about us?</label><br>
+            <input type="text" id="referral" name="referral" placeholder="Optional: Let us know how you found us"><br><br>
+
+            <p>
+                By clicking continue, I agree to 
+                <a href="#">Terms of Use</a> and acknowledge that I have read the 
+                <a href="#">Privacy Policy</a>.
+            </p>
+
+            <button type="submit">Signup →</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

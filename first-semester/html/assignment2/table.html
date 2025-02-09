@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>AltSchool Africa Courses</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    
+        .container {
+            padding: 1rem;
+        }
+    
+        table, td, th {
+          border-collapse: collapse; 
+          padding: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+        }
+    
+        th, td {
+            border: 1.5px solid #ddd;
+            text-align: left;
+        }
+    
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        nav {
+            background-color: #fff;
+            padding: 30px 15px;
+            text-align: left;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 100;
+            margin: 0 15px;
+            padding: 10px 15px;
+            border: 1px solid #333;;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+            background-color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 10rem;
+        }
+
+        @media (max-width: 874px) {
+            nav {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+                padding: 10px 5px;
+            }
+
+            nav a {
+                white-space: nowrap;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 501px) {
+        nav {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 8px;
+            padding: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../../../index.html">Go Home</a>
+        <a href="../assignment-1/about-me.html">View about-me assigment</a>
+        <a href="../assignment-1/form.html" class="assignment-card">View form assignment</a>
+        <a href="../assignment-2/media.html" class="assignment-card">View media assignment</a>
+    </nav>
+    <header>
+        <h1>Welcome to AltSchool Africa</h1>
+    </header>
+    <main class="container">
+        <h2>AltSchool Africa Schools and Courses</h2>
+        <table>
+            <thead>
+                <th>School</th>
+                <th>Courses</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>School of Engineering</td>
+                    <td>Frontend Engineering, Backend Engineering, Cloud Engineering and Cybersecurity</td>
+                </tr>
+                <tr>
+                    <td>School of Product</td>
+                    <td>Product Design, Product Marketing, and Product Management</td>
+                </tr>
+                <tr>
+                    <td>School of Data</td>
+                    <td>Data Analysis, Data Science and Data Engineering</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer class="footer">
+        <p>© 2025 Joshua Onwuemene. All rights reserved.</p>
+    </footer>
+</body>
+</html>
