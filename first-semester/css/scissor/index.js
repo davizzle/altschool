@@ -1,0 +1,6 @@
+// ... existing code ...
+function toggleAnswer(questionElement) {
+    const answer = questionElement.nextElementSibling; // Get the corresponding answer
+    answer.style.display = answer.style.display === 'none' ? 'block' : 'none'; // Toggle display
+}
+// ... existing code ...
