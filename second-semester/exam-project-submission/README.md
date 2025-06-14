@@ -1,7 +1,7 @@
 ## ✅ **Deployment Details**
 **Public IP**
 
-16.171.44.92
+91.99.166.130
 
 **Webpage**
 
